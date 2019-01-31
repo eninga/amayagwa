@@ -1,0 +1,11 @@
+index:
+    path: /
+    controller: App\Controller\MainController::index
+    
+#app_post_product:
+#    path: /new-product
+#    controller: App\Controller\MainController::postProduct
+#    
+#app_post_product:
+#    path: /products
+#    controller: App\Controller\MainController::getProducts

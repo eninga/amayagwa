@@ -1,0 +1,60 @@
+body{
+    background-color: #fffff1;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+}
+.content
+{
+    padding: 3px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 12em;
+}
+.container
+{
+    padding: 3px;
+    width: 80%;
+    flex-direction: row;
+    display: flex;
+
+}
+
+.row
+{
+    /*display: flex;
+    order: 1;*/
+    flex-flow: flex-start;
+}
+
+.element
+{
+    background-color: grey;
+    border: solid 2px red;
+}
+
+.column-0x
+{
+    flex: 0 0 50px;
+}
+
+.column-1x
+{
+    flex: 1;
+}
+.column-2x
+{
+    flex: 2;
+}
+.column-3x
+{
+    flex: 3;
+}
+.column-4x
+{
+    flex: 4;
+}
